@@ -445,6 +445,8 @@ else(moveit_ros_perception_FOUND)
   message(STATUS "moveit_ros_perception is not found, so skip creating jsk_pcl_ros_moveit")
 endif(moveit_ros_perception_FOUND)
 
+add_executable(container_occupancy_detector src/container_occupancy_detector.cpp)
+
 # bench/ directory
 
 add_executable(bench_ransac_plane_estimation bench/bench_ransac_plane_estimation.cpp)
