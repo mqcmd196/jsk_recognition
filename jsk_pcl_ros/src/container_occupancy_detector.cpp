@@ -34,3 +34,7 @@
  *********************************************************************/
 
 #include "jsk_pcl_ros/container_occupancy_detector.h"
+
+int main(){
+  return 0;
+}
